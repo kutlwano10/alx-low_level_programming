@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
 * main - use the putchar function
@@ -9,13 +11,13 @@
 */
 int main(void)
 {
-	char ch;
+	char low;
 
-	for (ch = 'a' ; ch <= 'z' ; ch++)
+	for (low = 'a' ; low <= 'z' ; low++)
 	{
-		putchar(ch);
+		putchar(low);
 	}
-	putchar('\n';
+	printf('\n';
 	return (0);
 }
 
