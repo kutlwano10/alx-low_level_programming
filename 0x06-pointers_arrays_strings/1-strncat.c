@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
 * _strncat - is the function
@@ -11,15 +10,13 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	_strncat(dest, src, n);
-	return (dest);
-}
-int main()
-{
-	char dest[100] = "Hello";
-	char *src = "world";
+	int index = 0, dest_den = 0;
 
-	_strncat(dest, src, 3);
-	printf("%s", dest);
+	while (dest[index++])
+		dest_len++;
+
+	for (index = 0; src[index] && index <n; index++)
+		dest[dest_len++] = src[index];
+	
 	return (dest);
 }
